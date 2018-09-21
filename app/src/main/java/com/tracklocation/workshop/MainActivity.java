@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         mPassword = (EditText) findViewById(R.id.password);
         mButtonlogin = (RelativeLayout) findViewById(R.id.buttonLogin);
 
+		// github
         // setup preference
         new Prefs.Builder()
                 .setContext(getApplicationContext())
